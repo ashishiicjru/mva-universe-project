@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MVA Universe Hub · Space, AI &amp; Innovation</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/mva-shell.css">
+<style>
+:root{color-scheme:dark;--cy:#22d3ee;--or:#f97316;--tx:#e6eaf2;--mu:#a3b1c6}
+*{box-sizing:border-box;margin:0}
+body{background:#02040e;color:var(--tx);font:16px/1.6 Inter,system-ui,sans-serif;padding-bottom:110px;overflow-x:hidden}
+#st{position:fixed;inset:0;width:100%;height:100%;z-index:-1}
+.hero{min-height:84vh;display:grid;place-items:center;text-align:center;padding:30px 18px 10px;position:relative}
+.orb{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;opacity:.8}
+.sun{width:70px;height:70px;border-radius:50%;background:radial-gradient(#fff6c0,#ffb02e 55%,#f97316);box-shadow:0 0 90px 30px #f9731688}
+.r{position:absolute;border:1px solid #6aa8ff33;border-radius:50%;animation:spin linear infinite}
+.r u{position:absolute;top:-7px;left:50%;width:14px;height:14px;border-radius:50%;background:var(--c)}
+.r1{width:260px;height:260px;animation-duration:9s;--c:#c9a37a}.r2{width:420px;height:420px;animation-duration:16s;--c:#4f8bff}.r3{width:600px;height:600px;animation-duration:26s;--c:#d0764a}.r4{width:820px;height:820px;animation-duration:42s;--c:#e8c98a}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero>div:last-child{position:relative;max-width:760px}
+h1{font:700 clamp(2.6rem,9vw,6.4rem)/1 'Space Grotesk',sans-serif;letter-spacing:.04em;text-shadow:0 0 40px #3b82f688}
+h1 span{color:var(--cy)}
+.hero p{margin:16px auto 24px;color:var(--mu);font-size:18px;max-width:600px}
+.cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.cta button{font:600 15px 'Space Grotesk';padding:13px 24px;border-radius:30px;border:1px solid var(--cy);background:#22d3ee22;color:var(--tx);cursor:pointer;transition:.2s}
+.cta button:hover{background:var(--cy);color:#001018;box-shadow:0 0 24px var(--cy)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;padding:10px 18px}
+.chips button{font:500 14px Inter;padding:7px 14px;border-radius:20px;border:1px solid #5ff0ff44;background:#0a1a2a99;color:var(--tx);cursor:pointer}
+.chips .on,.chips button:hover{background:var(--cy);color:#001018}
+.grp{max-width:1150px;margin:26px auto;padding:0 18px}
+.grp h2{font:700 1.4rem 'Space Grotesk';margin-bottom:12px;color:var(--cy);letter-spacing:.04em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.card{display:block;padding:16px;border-radius:16px;border:1px solid #5ea0ff33;background:linear-gradient(145deg,#0e1a3acc,#070d22cc);text-decoration:none;color:inherit;transition:transform .15s,box-shadow .25s,border-color .25s;transform-style:preserve-3d;will-change:transform}
+.card:hover{border-color:var(--cy);box-shadow:0 0 30px #22d3ee44}
+.card b{display:block;font:600 1rem 'Space Grotesk';margin-top:6px}
+.card i{font-size:30px;font-style:normal}
+.card small{color:var(--mu)}
+</style>
+</head>
+<body>
+<canvas id="st"></canvas>
+<section class="hero">
+ <div class="orb"><i class="sun"></i><b class="r r1"><u></u></b><b class="r r2"><u></u></b><b class="r r3"><u></u></b><b class="r r4"><u></u></b></div>
+ <div>
+  <h1>MVA <span>UNIVERSE</span></h1>
+  <p>Robotics, space, health and Ganga monitoring, live Earth views, 15 interactive 3D space viewers and the COSMOS app. One project, one menu, one sound.</p>
+  <div class="cta"><button id="enter">🔊 Enter with sound</button><button id="find">🧭 Search everything (K)</button></div>
+ </div>
+</section>
+<div class="chips" id="chips"></div>
+<div id="groups"></div>
+<script src="shared/mva-shell.js" defer></script>
+<script>
+addEventListener('DOMContentLoaded',()=>{
+ const M=window.MVA,G=document.getElementById('groups'),C=document.getElementById('chips');
+ const draw=f=>{G.innerHTML='';M.REG.filter(g=>!f||g[0]===f).forEach(g=>{const s=document.createElement('section');s.className='grp';s.innerHTML=`<h2>${g[1]} ${g[0]}</h2><div class=grid>${g[2].map(i=>`<a class=card href='${i[0]}'${/^http/.test(i[0])?" target=_blank rel=noopener":''}><i>${i[2]}</i><b>${i[1]}</b><small>${/^http/.test(i[0])?new URL(i[0]).host:i[0]}</small></a>`).join('')}</div>`;G.append(s)})};
+ draw();['All',...M.REG.map(g=>g[0])].forEach((n,i)=>{const b=document.createElement('button');b.textContent=n;if(!i)b.className='on';b.onclick=()=>{C.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));draw(i?n:null)};C.append(b)});
+ document.getElementById('enter').onclick=()=>{M.setSound(true);scrollTo({top:innerHeight*.8,behavior:'smooth'})};
+ document.getElementById('find').onclick=()=>dispatchEvent(new KeyboardEvent('keydown',{key:'k'}));
+ G.addEventListener('mousemove',e=>{const c=e.target.closest('.card');if(!c)return;const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(600px) rotateY(${x*12}deg) rotateX(${-y*12}deg) translateY(-3px)`});
+ G.addEventListener('mouseout',e=>{const c=e.target.closest('.card');if(c)c.style.transform=''});
+ /* warp starfield */
+ const cv=document.getElementById('st'),x=cv.getContext('2d');let W,H,S=[],sp=1,mx=0,my=0;
+ const rs=()=>{W=cv.width=innerWidth;H=cv.height=innerHeight;S=Array.from({length:420},()=>({x:(Math.random()-.5)*W*2,y:(Math.random()-.5)*H*2,z:Math.random()*W}))};rs();addEventListener('resize',rs);
+ addEventListener('mousemove',e=>{mx=(e.clientX/W-.5)*60;my=(e.clientY/H-.5)*60});
+ addEventListener('click',()=>sp=14);
+ (function f(){x.fillStyle='rgba(2,4,14,.35)';x.fillRect(0,0,W,H);sp+=(1-sp)*.04;
+  S.forEach(s=>{s.z-=sp*1.2;if(s.z<1){s.z=W;s.x=(Math.random()-.5)*W*2;s.y=(Math.random()-.5)*H*2}
+   const k=300/s.z,px=W/2+s.x*k-mx,py=H/2+s.y*k-my,r=Math.max(.3,(1-s.z/W)*2.2);x.fillStyle=`rgba(200,225,255,${1-s.z/W})`;
+   if(sp>3){const k2=300/(s.z+sp*8);x.strokeStyle=x.fillStyle;x.lineWidth=r;x.beginPath();x.moveTo(px,py);x.lineTo(W/2+s.x*k2-mx,H/2+s.y*k2-my);x.stroke()}else{x.beginPath();x.arc(px,py,r,0,6.3);x.fill()}});
+  requestAnimationFrame(f)})();
+});
+</script>
+</body>
+</html>

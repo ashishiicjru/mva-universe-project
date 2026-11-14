@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gas giants | MVA Space</title>
+<meta name="description" content="Jupiter and Saturn rotating in 3D with moons and rings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Sora:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/space.css">
+<link rel="stylesheet" href="../shared/mva-shell.css"></head>
+<body class="space">
+<header class="nav" id="nav"></header>
+<main class="viewer">
+  <div id="stage" role="img" aria-label="Rotating gas giants"></div>
+  <div id="tabs" class="tabs" hidden></div>
+  <aside id="info" class="info" aria-live="polite"></aside>
+  <div id="toolbar" class="toolbar"></div>
+</main>
+<noscript><p style="padding:24px">This page needs JavaScript to show the 3D view.</p></noscript>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="js/space-data.js"></script>
+<script src="js/space-common.js"></script>
+<script>
+SPACE.bodyViewer({active:'gas-giants.html',keys:['jupiter','saturn']});
+</script>
+<script src="../shared/mva-shell.js" defer></script></body>
+</html>
