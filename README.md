@@ -1,6 +1,7 @@
 # 🚀 BRAHMAND GANGA
 
 ### Beyond Health Monitoring — A Complete Astronaut Support Ecosystem for Space and Earth
+Tagline: From the infinite universe to the deepest oceans and frozen polar worlds — explore beyond boundaries with Brahmand Ganga.
 
 \<p align="center">   \<strong>NASA Space Apps Challenge 2026 | Regional Round Project\</strong>\<br>   \<strong>Team Reborn Innovators\</strong>\<br>   \<strong>MVA Robotics Innovation Org\</strong> \</p>
 
@@ -297,8 +298,122 @@ Useful official resources:
 - ISRO: [https://www.isro.gov.in/](https://www.isro.gov.in/)
 
 ---
+## 🚀 8. Brahmand Ganga — Cosmic Gateway: Immersive Exploration Tours
 
-## 🛰️ 8. Interactive Earth and Satellite Map
+**Experience:** [🌌 Open Brahmand Ganga Cosmic Gateway](https://brahmand-ganga-cosmic-gateway.vercel.app/)
+
+The **Brahmand Ganga Cosmic Gateway** expands our space-exploration experience into an immersive collection of interactive tours. It takes users beyond conventional space dashboards and introduces cinematic journeys through the universe, satellite systems, rocket missions, oceans, marine life, and polar environments.
+
+The platform is designed to provide an engaging exploration experience through interactive 3D environments, camera movement, tour controls, and visual storytelling.
+
+### 8.1 Cosmos Tour — Journey at the Speed of Light
+
+[🌌 Start Cosmos Tour](https://brahmand-ganga-cosmic-gateway.vercel.app/)
+
+Explore a journey from Earth towards the wider universe through the ASTRA-VISION X1 camera-satellite concept.
+
+Features include:
+
+- Light-speed journey and distance visualisation.
+- Interactive exploration of planets and celestial objects.
+- 360° camera viewing and rotation.
+- Automatic tour and manual exploration modes.
+- Surface, close-up, cutaway, and core viewing concepts.
+- Zoom and field-of-view controls.
+- Thermal and spectral visualisation modes.
+- Exploration of stars, nebulae, galaxies, and black holes.
+
+### 8.2 Satellite Tour — Satellites of the World
+
+[🛰️ Start Satellite Tour](https://brahmand-ganga-cosmic-gateway.vercel.app/satellites.html)
+
+Explore the satellites that observe, connect, guide, and support our world.
+
+The tour covers satellite-related topics such as:
+
+- Historical satellite missions.
+- Earth-observation satellites.
+- Weather and navigation satellites.
+- Space telescopes, including the James Webb Space Telescope.
+- Space stations and orbital systems.
+- ISRO-related satellite and exploration missions.
+- Moon and Mars orbiters.
+- Space debris awareness.
+
+### 8.3 Rocket Missions — Interactive Launch Experience
+
+[🚀 Explore Rocket Missions](https://brahmand-ganga-cosmic-gateway.vercel.app/rockets.html)
+
+The Rocket Missions experience introduces users to rocket-launch sequences and mission concepts through an interactive launch console.
+
+Features include:
+
+- Rocket and payload selection.
+- Launch sequence simulation.
+- Ignition and liftoff controls.
+- Stage and fairing separation.
+- Payload deployment sequence.
+- Mission elapsed-time display.
+- Altitude and velocity visualisation.
+- Manual and automated launch interaction concepts.
+
+This is an educational and visual launch simulation, not a live rocket-control system.
+
+### 8.4 Ocean Tour — Explore the Deep Blue
+
+[🌊 Start Ocean Tour](https://brahmand-ganga-cosmic-gateway.vercel.app/ocean.html)
+
+Move from outer space to Earth's oceans and explore underwater environments.
+
+The experience introduces ocean and underwater exploration concepts, including:
+
+- Oceans and deep-sea environments.
+- Ocean trenches and underwater zones.
+- Depth visualisation.
+- Water pressure and temperature displays.
+- Sunlight and underwater environmental parameters.
+- Interactive underwater camera exploration.
+
+### 8.5 Sea Life Tour — Explore Marine Biodiversity
+
+[🐬 Start Sea Life Tour](https://brahmand-ganga-cosmic-gateway.vercel.app/Sea%20Life%20Tour.html)
+
+Discover marine biodiversity through an interactive sea-life exploration experience.
+
+The concept focuses on:
+
+- Marine species exploration.
+- Underwater environments.
+- Visual discovery of sea life.
+- Interactive navigation between scenes.
+- Awareness of ocean ecosystems and biodiversity.
+
+### 8.6 Antarctica Tour — Explore the Frozen Continent
+
+[❄️ Explore Antarctica Tour](https://brahmand-ganga-cosmic-gateway.vercel.app/)
+
+The Antarctica Tour extends the Cosmic Gateway experience into Earth's frozen southern continent through an immersive polar exploration journey.
+
+Features include:
+
+- Interactive exploration of Antarctica.
+- Antarctic ice sheets, glaciers, and frozen landscapes.
+- Polar environment and geographical exploration.
+- Antarctic wildlife and biodiversity discovery.
+- Exploration of the Southern Ocean and surrounding polar regions.
+- Educational visual storytelling about Earth's coldest continent.
+
+The Antarctica Tour completes another part of our exploration vision by connecting outer-space journeys with Earth's most extreme natural environments.
+
+### Why Cosmic Gateway Matters
+
+The Cosmic Gateway broadens Brahmand Ganga beyond astronaut health and space exploration alone. It creates an educational exploration experience connecting outer space with the natural environments of Earth.
+
+**From the speed of light to the depths of the ocean — one gateway for exploration.**
+
+---
+
+## 🛰️ 9. Interactive Earth and Satellite Map
 
 Brahmand Ganga includes an interactive map experience with:
 
@@ -391,7 +506,7 @@ This is the dedicated Brahmand Ganga application repository and its associated d
 | Astronaut Health Lab   | [Open Astronaut Health Lab](https://mva-universe-project.vercel.app/astronaut-health-lab.html) |
 | Bio Revive AI          | [Open Bio Revive AI](https://bio-revive-ai-genius.vercel.app/)                                 |
 | Brain MRI Intelligence | [Open Brain MRI Intelligence](https://brain-mri-intelligence.vercel.app/#workstation)          |
-
+| Cosmic Gateway         | [Explore Cosmic Gateway](https://brahmand-ganga-cosmic-gateway.vercel.app/) |
 These applications form the wider project ecosystem. Individual deployments may have separate codebases, interfaces, and integration levels.
 
 ---
