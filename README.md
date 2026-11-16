@@ -1,5 +1,4 @@
-
-                              # 🚀 BRAHMAND GANGA
+   # 🚀 BRAHMAND GANGA
 
 ### Beyond Health Monitoring — A Complete Astronaut Support Ecosystem for Space and Earth
 
