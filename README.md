@@ -1,13 +1,25 @@
-# 🚀 BRAHMAND GANGA
+
 # 🚀 BRAHMAND GANGA
 
 ### Beyond Health Monitoring — A Complete Astronaut Support Ecosystem for Space and Earth
 
 **From the infinite universe to the deepest oceans and frozen polar worlds — explore beyond boundaries with Brahmand Ganga.**
 
-\<p align="center">   \<strong>NASA Space Apps Challenge 2026 | Regional Round Project\</strong>\<br>   \<strong>Team Reborn Innovators\</strong>\<br>   \<strong>MVA Robotics Innovation Org\</strong> \</p>
+<p align="center">
+  <strong>NASA Space Apps Challenge 2026 | Regional Round Project</strong><br>
+  <strong>Team Reborn Innovators</strong><br>
+  <strong>MVA Robotics Innovation Org</strong>
+</p>
 
-\<p align="center">   \<a href="[https://mva-universe-project.vercel.app/](https://mva-universe-project.vercel.app/)">🌌 Main Platform\</a> •   \<a href="[https://brahmand-ganga.vercel.app/](https://brahmand-ganga.vercel.app/)">🛰️ Live Demo\</a> •   \<a href="[https://brahmand-ganga-cosmic-gateway.vercel.app/](https://brahmand-ganga-cosmic-gateway.vercel.app/)">🚀 Cosmic Gateway\</a> •   \<a href="[https://github.com/mva-robotics-innovation/brahmand-ganga](https://github.com/mva-robotics-innovation/brahmand-ganga)">💻 Brahmand Ganga Repository\</a> •   \<a href="[https://youtu.be/9CHAgphoEac](https://youtu.be/9CHAgphoEac)">▶️ Project Demonstration\</a> \</p>
+<p align="center">
+  <a href="https://mva-universe-project.vercel.app/">🌌 Main Platform</a> •
+  <a href="https://brahmand-ganga.vercel.app/">🛰️ Live Demo</a> •
+  <a href="https://brahmand-ganga-cosmic-gateway.vercel.app/">🚀 Cosmic Gateway</a> •
+  <a href="https://github.com/mva-robotics-innovation/brahmand-ganga">💻 Brahmand Ganga Repository</a> •
+  <a href="https://youtu.be/9CHAgphoEac">▶️ Project Demonstration</a>
+</p>
+
+---
 
 ---
 
