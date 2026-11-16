@@ -809,13 +809,14 @@ Brahmand Ganga represents our effort to make astronaut support more connected, i
 
 We believe that the future of space technology should not focus only on reaching farther into the universe. It should also focus on the people who make that exploration possible.
 
+
 ### Explore the Universe. Understand Health. Prepare for Tomorrow.
 
 <p align="center">
-&#x20; <strong>BRAHMAND GANGA</strong><br>
-&#x20; A Complete Astronaut Support Ecosystem for Space and Earth\<br>\<br>
-&#x20; <strong>Developed by Team Reborn Innovators</strong>\<br>
-&#x20; MVA Robotics Innovation Org
+  <strong>BRAHMAND GANGA</strong><br>
+  A Complete Astronaut Support Ecosystem for Space and Earth<br><br>
+  <strong>Developed by Team Reborn Innovators</strong><br>
+  MVA Robotics Innovation Org
 </p>
 
 ---
