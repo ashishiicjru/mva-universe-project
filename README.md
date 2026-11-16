@@ -813,9 +813,9 @@ We believe that the future of space technology should not focus only on reaching
 ### Explore the Universe. Understand Health. Prepare for Tomorrow.
 
 <p align="center">
-&#x20; \<strong>BRAHMAND GANGA\</strong>\<br>
+&#x20; <strong>BRAHMAND GANGA</strong><br>
 &#x20; A Complete Astronaut Support Ecosystem for Space and Earth\<br>\<br>
-&#x20; \<strong>Developed by Team Reborn Innovators\</strong>\<br>
+&#x20; <strong>Developed by Team Reborn Innovators</strong>\<br>
 &#x20; MVA Robotics Innovation Org
 </p>
 
